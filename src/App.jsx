@@ -7,7 +7,7 @@ function App() {
     <main className="App">
       <h1>About Me</h1>
       <p>My name is {info.name}</p>
-      <img src="{html5Img}" alt="" />
+      <img src={html5Img} alt="" />
       <h2>My skils</h2>
       <ul>
         {info.skils.map((item) => (
