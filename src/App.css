@@ -47,11 +47,6 @@ ul {
 }
 
 .icon {
-  width: 30px;
-}
-
-.skils-item {
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  margin-left: 10px;
+  display: inline-block;
 }

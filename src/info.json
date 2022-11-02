@@ -2,10 +2,5 @@
     "name": "Vlad",
     "hobbies": ["Reading", "TV series", "Computer games"],
     "workingExp": ["manager", 3],
-    "skils": [
-        {"name": "HTML", "icon": "./src/assets/html-5.png"},
-        {"name": "CSS", "icon": "./src/assets/css-3.png"},
-        {"name": "JS", "icon": "./src/assets/java-script.png"},
-        {"name": "GitHub", "icon": "./src/assets/github.png"}
-    ]
+    "skills": ["HTML", "CSS", "JS", "GitHub"]
 }

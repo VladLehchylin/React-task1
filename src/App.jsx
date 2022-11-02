@@ -1,30 +1,37 @@
 import "./App.css";
 import info from "./info.json";
-import html5Img from "./assets/html-5.png";
+import skillsIcon from "./assets/skills.png";
+import hobbiesIcon from "./assets/hobbies.png";
+import expIcon from "./assets/exp.png";
 
 function App() {
   return (
     <main className="App">
       <h1>About Me</h1>
       <p>My name is {info.name}</p>
-      <img src={html5Img} alt="" />
-      <h2>My skils</h2>
+      <h2>
+        My skills
+        <img className="icon" src={skillsIcon} alt="icon" />
+      </h2>
       <ul>
-        {info.skils.map((item) => (
-          <li className="skils-item">
-            <p>{item.name}</p>
-            <img className="icon" src={item.icon} alt="icon" />
-          </li>
+        {info.skills.map((item, index) => (
+          <li key={index}>{item}</li>
         ))}
       </ul>
-      <h2>Work experience</h2>
+      <h2>
+        Work experience
+        <img className="icon" src={expIcon} alt="icon" />
+      </h2>
       <p>
         I worked as a {info.workingExp[0]} for {info.workingExp[1]} years.
       </p>
-      <h2>Just a little bit about my hobbies</h2>
+      <h2>
+        Just a little bit about my hobbies
+        <img className="icon" src={hobbiesIcon} alt="icon" />
+      </h2>
       <ul>
-        {info.hobbies.map((item) => (
-          <li>{item}</li>
+        {info.hobbies.map((item, index) => (
+          <li key={index}>{item}</li>
         ))}
       </ul>
     </main>
