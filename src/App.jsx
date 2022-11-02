@@ -1,5 +1,6 @@
 import "./App.css";
 import info from "./info.json";
+import html5Img from "./assets/thml-5.png";
 
 function App() {
   return (
@@ -11,7 +12,7 @@ function App() {
         {info.skils.map((item) => (
           <li className="skils-item">
             <p>{item.name}</p>
-            <img className="icon" src={require(item.icon)} alt="icon" />
+            <img className="icon" src={item.icon} alt="icon" />
           </li>
         ))}
       </ul>
