@@ -1,6 +1,6 @@
 import "./App.css";
 import info from "./info.json";
-import html5Img from "./assets/thml-5.png";
+import html5Img from "./assets/html-5.png";
 
 function App() {
   return (
