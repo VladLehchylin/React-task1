@@ -1,5 +1,6 @@
 import "./App.css";
 import info from "./info.json";
+import images from "./assets";
 
 function App() {
   return (
